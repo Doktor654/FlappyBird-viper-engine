@@ -1,13 +1,9 @@
 import pygame
-from engine.Scene import Scene
+from engine import *
 from flappy_bird.flappy_nodes.BirdNode import BirdNode
 from flappy_bird.flappy_nodes.ScrollingBackground import ScrollingBackground
 from flappy_bird.flappy_nodes.PipeNode import PipeNode
-from engine.Nodes.CollisionBody import CollisionBody
-from engine.Nodes.Sprite import SpriteNode
-from engine.Nodes.Camera import CameraNode
-from engine.Nodes.Label import LabelNode
-from engine.Nodes.Button import ButtonNode
+
 import random
 
 class FlappyScene(Scene):
